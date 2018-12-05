@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_flow_record_trigger">
+    <sys_flow_record_trigger action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <condition table="pm_project">^EQ<item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
+        </condition>
+        <name/>
+        <on_delete>false</on_delete>
+        <on_insert>true</on_insert>
+        <on_update>false</on_update>
+        <sys_class_name>sys_flow_record_trigger</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-12-05 14:36:01</sys_created_on>
+        <sys_id>5a1bff3bdb022300306dab7dca96197d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="PMIS" source="x_297377_pmis">c3c76e63db8a230055adf00fbf96191d</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="PMIS">c3c76e63db8a230055adf00fbf96191d</sys_scope>
+        <sys_update_name>sys_flow_record_trigger_5a1bff3bdb022300306dab7dca96197d</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-12-05 14:36:01</sys_updated_on>
+        <table>pm_project</table>
+    </sys_flow_record_trigger>
+</record_update>
