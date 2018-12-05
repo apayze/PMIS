@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_choice action="INSERT_OR_UPDATE" field="cio_priority" table="x_297377_pmis_project_details" version="3">
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>cio_priority</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>IC ITE Adoption Strategy for DIA</label>
+            <language>en</language>
+            <name>x_297377_pmis_project_details</name>
+            <sequence/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-12-05 15:46:52</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>043b8004db522300306dab7dca9619dc</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-12-05 15:46:56</sys_updated_on>
+            <value>IC ITE Adoption Strategy for DIA</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>cio_priority</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>IT Infrastructure Optimization</label>
+            <language>en</language>
+            <name>x_297377_pmis_project_details</name>
+            <sequence/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-12-05 15:47:06</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>cc5bc404db522300306dab7dca9619d8</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-12-05 15:47:13</sys_updated_on>
+            <value>IT Infrastructure Optimization</value>
+        </sys_choice>
+        <sys_choice_set action="INSERT_OR_UPDATE">
+            <element>cio_priority</element>
+            <name>x_297377_pmis_project_details</name>
+            <sys_class_name>sys_choice_set</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-12-05 15:46:52</sys_created_on>
+            <sys_id>885b4004db522300306dab7dca9619bd</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>cio_priority</sys_name>
+            <sys_package display_value="PMIS" source="x_297377_pmis">c3c76e63db8a230055adf00fbf96191d</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="PMIS">c3c76e63db8a230055adf00fbf96191d</sys_scope>
+            <sys_update_name>sys_choice_x_297377_pmis_project_details_cio_priority</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-12-05 15:46:52</sys_updated_on>
+        </sys_choice_set>
+    </sys_choice>
+</record_update>

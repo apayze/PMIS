@@ -1,7 +1,31 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
     <element label="Project Details" max_length="40" name="x_297377_pmis_project_details" type="collection">
+        <element choice="1" label="Branch" max_length="40" name="branch" type="choice">
+            <choice/>
+        </element>
+        <element choice="1" label="CIO Priority" max_length="40" name="cio_priority" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="IC ITE Adoption Strategy for DIA" value="IC ITE Adoption Strategy for DIA"/>
+                <element inactive_on_update="false" label="IT Infrastructure Optimization" value="IT Infrastructure Optimization"/>
+            </choice>
+        </element>
+        <element choice="1" label="Division" max_length="40" name="division" type="choice">
+            <choice/>
+        </element>
+        <element choice="1" label="IUS Activity Code" max_length="40" name="ius_activity_code" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="001 Preliminary Design" value="001 Preliminary Design"/>
+                <element inactive_on_update="false" label="002 Development" value="002 Development"/>
+                <element inactive_on_update="false" label="003 Maintenance" value="003 Maintenance"/>
+            </choice>
+        </element>
+        <element label="IUS Project" max_length="40" name="ius_project" type="string"/>
         <element attributes="ignore_filter_on_new=true" default="javascript:global.getNextObjNumberPadded();" display="true" label="Number" max_length="40" name="number" type="string"/>
         <element label="Project" max_length="32" name="project" reference="pm_project" type="reference"/>
+        <element label="Reference Link" max_length="1024" name="reference_link" type="url"/>
+        <element choice="1" label="Section" max_length="40" name="section" type="choice">
+            <choice/>
+        </element>
         <index name="index">
             <element name="project"/>
         </index>
