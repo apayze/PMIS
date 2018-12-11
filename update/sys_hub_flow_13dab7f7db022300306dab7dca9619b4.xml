@@ -9,7 +9,7 @@
         <description>Create Project Details Record</description>
         <internal_name>create_project_details_record</internal_name>
         <label_cache>[{"name":"Created_1.current","label":"Trigger➛Project Record","reference":"pm_project","reference_display":"Project","type":"reference","base_type":"reference"},{"name":"fe75ae29-16cc-488f-a111-ead51813ed03.table_name","label":"1➛Table","reference_display":"Table","type":"table_name","base_type":"table_name"},{"name":"fe75ae29-16cc-488f-a111-ead51813ed03.record","label":"1➛Record","reference_display":"Record","type":"document_id","base_type":"document_id"}]</label_cache>
-        <latest_snapshot>2f6c33bbdb022300306dab7dca96194a</latest_snapshot>
+        <latest_snapshot>f0b15aa8dbd22300306dab7dca9619a9</latest_snapshot>
         <master_snapshot>9a1bff3bdb022300306dab7dca961936</master_snapshot>
         <name>Create Project Details Record</name>
         <outputs/>
@@ -22,14 +22,14 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2018-12-05 14:34:59</sys_created_on>
         <sys_id>13dab7f7db022300306dab7dca9619b4</sys_id>
-        <sys_mod_count>4</sys_mod_count>
+        <sys_mod_count>5</sys_mod_count>
         <sys_name>Create Project Details Record</sys_name>
         <sys_package display_value="PMIS" source="x_297377_pmis">c3c76e63db8a230055adf00fbf96191d</sys_package>
         <sys_policy/>
         <sys_scope display_value="PMIS">c3c76e63db8a230055adf00fbf96191d</sys_scope>
         <sys_update_name>sys_hub_flow_13dab7f7db022300306dab7dca9619b4</sys_update_name>
         <sys_updated_by>system</sys_updated_by>
-        <sys_updated_on>2018-12-05 14:41:50</sys_updated_on>
+        <sys_updated_on>2018-12-07 14:50:58</sys_updated_on>
         <type>flow</type>
     </sys_hub_flow>
     <sys_translated_text action="delete_multiple" query="documentkey=13dab7f7db022300306dab7dca9619b4"/>

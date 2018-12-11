@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_hub_flow">
+    <sys_hub_flow action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <active>true</active>
+        <annotation/>
+        <category/>
+        <copied_from/>
+        <copied_from_name/>
+        <description>This flows creates a Project Details record for existing projects when a PM next updates the project.   This Flow is designed to retrofit for existing projects prior to the deployment of the PMIS Scoped app.  This flow could be deactivated once all active projects have a Project Details record</description>
+        <internal_name>create_project_details_record_for_existing_projects</internal_name>
+        <label_cache>[{"name":"Updated_1.current","label":"Trigger➛Project Record","reference":"pm_project","reference_display":"Project","type":"reference","base_type":"reference"},{"name":"309a2542-1193-4574-9c8f-613d0948c5f1.table_name","label":"1➛Table","reference_display":"Table","type":"table_name","base_type":"table_name"},{"name":"309a2542-1193-4574-9c8f-613d0948c5f1.record","label":"1➛Record","reference_display":"Record","type":"document_id","base_type":"document_id"}]</label_cache>
+        <latest_snapshot>bb7de671dbde2300306dab7dca961982</latest_snapshot>
+        <master_snapshot>1bec6e31dbde2300306dab7dca96196f</master_snapshot>
+        <name>Create Project Details Record for Existing Projects</name>
+        <outputs/>
+        <remote_trigger_id>6bec6e31dbde2300306dab7dca9619bc</remote_trigger_id>
+        <sc_callable>false</sc_callable>
+        <show_draft_actions>false</show_draft_actions>
+        <show_triggered_flows>false</show_triggered_flows>
+        <status>published</status>
+        <sys_class_name>sys_hub_flow</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-12-11 13:59:18</sys_created_on>
+        <sys_id>1b3ca2b9db9e2300306dab7dca961931</sys_id>
+        <sys_mod_count>4</sys_mod_count>
+        <sys_name>Create Project Details Record for Existing Projects</sys_name>
+        <sys_package display_value="PMIS" source="x_297377_pmis">c3c76e63db8a230055adf00fbf96191d</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="PMIS">c3c76e63db8a230055adf00fbf96191d</sys_scope>
+        <sys_update_name>sys_hub_flow_1b3ca2b9db9e2300306dab7dca961931</sys_update_name>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2018-12-11 14:04:49</sys_updated_on>
+        <type>flow</type>
+    </sys_hub_flow>
+    <sys_translated_text action="delete_multiple" query="documentkey=1b3ca2b9db9e2300306dab7dca961931"/>
+    <sys_variable_value action="delete_multiple" query="document_key=1b3ca2b9db9e2300306dab7dca961931"/>
+</record_update>
