@@ -7,7 +7,7 @@
         <comment/>
         <compiled_snapshot display_value="Create Record">2de05916c31332002841b63b12d3aee1</compiled_snapshot>
         <display_text/>
-        <flow display_value="Create Project Details Record">13dab7f7db022300306dab7dca9619b4</flow>
+        <flow display_value="Create Project Details Record for New Projects">13dab7f7db022300306dab7dca9619b4</flow>
         <order>1</order>
         <parent_ui_id/>
         <sys_class_name>sys_hub_action_instance</sys_class_name>
