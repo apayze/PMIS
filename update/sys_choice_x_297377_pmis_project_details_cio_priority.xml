@@ -5,6 +5,25 @@
             <element>cio_priority</element>
             <hint/>
             <inactive>false</inactive>
+            <label>Business of IT</label>
+            <language>en</language>
+            <name>x_297377_pmis_project_details</name>
+            <sequence/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-12-12 18:43:05</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>47b6b45adb162300306dab7dca9619ac</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-12-12 18:43:05</sys_updated_on>
+            <value>Business of IT</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>cio_priority</element>
+            <hint/>
+            <inactive>false</inactive>
             <label>IC ITE Adoption Strategy for DIA</label>
             <language>en</language>
             <name>x_297377_pmis_project_details</name>
@@ -37,6 +56,101 @@
             <sys_updated_by>admin</sys_updated_by>
             <sys_updated_on>2018-12-05 15:47:13</sys_updated_on>
             <value>IT Infrastructure Optimization</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>cio_priority</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>IT Innovation and Digital Enterprise</label>
+            <language>en</language>
+            <name>x_297377_pmis_project_details</name>
+            <sequence/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-12-12 18:43:43</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>40d6bc1adb162300306dab7dca9619f7</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-12-12 18:43:43</sys_updated_on>
+            <value>IT Innovation and Digital Enterprise</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>cio_priority</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>N/A - Not a CIO Project</label>
+            <language>en</language>
+            <name>x_297377_pmis_project_details</name>
+            <sequence/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-12-12 18:44:21</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>d407705adb162300306dab7dca96196d</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-12-12 18:44:24</sys_updated_on>
+            <value>N/A - Not a CIO Project</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>cio_priority</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>One Team (Internal)</label>
+            <language>en</language>
+            <name>x_297377_pmis_project_details</name>
+            <sequence/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-12-12 18:44:37</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>6017fc1adb162300306dab7dca961909</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-12-12 18:44:39</sys_updated_on>
+            <value>One Team (Internal)</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>cio_priority</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Stakeholder Communications</label>
+            <language>en</language>
+            <name>x_297377_pmis_project_details</name>
+            <sequence/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-12-12 18:44:53</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>5427705adb162300306dab7dca96196e</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-12-12 18:44:57</sys_updated_on>
+            <value>Stakeholder Communications</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>cio_priority</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Workforce Development</label>
+            <language>en</language>
+            <name>x_297377_pmis_project_details</name>
+            <sequence/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-12-12 18:45:19</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>ac37fc1adb162300306dab7dca961991</sys_id>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-12-12 18:45:33</sys_updated_on>
+            <value>Workforce Development</value>
         </sys_choice>
         <sys_choice_set action="INSERT_OR_UPDATE">
             <element>cio_priority</element>

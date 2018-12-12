@@ -1,16 +1,133 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
     <element label="Project Details" max_length="40" name="x_297377_pmis_project_details" type="collection">
-        <element choice="1" label="Branch" max_length="40" name="branch" type="choice">
-            <choice/>
+        <element choice="1" dependent="division" dependent_on_field="division" label="Branch" max_length="40" name="branch" type="choice" use_dependent_field="true">
+            <choice>
+                <element dependent_value="CFO" inactive_on_update="false" label="CFO-4" value="CFO-4"/>
+                <element dependent_value="CFO" inactive_on_update="false" label="CFO-SAG" value="CFO-SAG"/>
+                <element dependent_value="CIO" inactive_on_update="false" label="CIO HQ" value="CIO HQ"/>
+                <element dependent_value="CIO-1" inactive_on_update="false" label="CIO1A" value="CIO1A"/>
+                <element dependent_value="CIO-1" inactive_on_update="false" label="CIO1A" value="CIO1A"/>
+                <element dependent_value="CIO-1" inactive_on_update="false" label="CIO1B" value="CIO1B"/>
+                <element dependent_value="CIO-1" inactive_on_update="false" label="CIO1C" value="CIO1C"/>
+                <element dependent_value="CIO-1" inactive_on_update="false" label="CIO1HQ" value="CIO1HQ"/>
+                <element dependent_value="CIO-2" inactive_on_update="false" label="CIO2A" value="CIO2A"/>
+                <element dependent_value="CIO-2" inactive_on_update="false" label="CIO2B" value="CIO2B"/>
+                <element dependent_value="CIO-2" inactive_on_update="false" label="CIO2C" value="CIO2C"/>
+                <element dependent_value="CIO-2" inactive_on_update="false" label="CIO2HQ" value="CIO2HQ"/>
+                <element dependent_value="CIO-3" inactive_on_update="false" label="CIO3A" value="CIO3A"/>
+                <element dependent_value="CIO-3" inactive_on_update="false" label="CIO3B" value="CIO3B"/>
+                <element dependent_value="CIO-3" inactive_on_update="false" label="CIO3C" value="CIO3C"/>
+                <element dependent_value="CIO-3" inactive_on_update="false" label="CIO3D" value="CIO3D"/>
+                <element dependent_value="CIO-3" inactive_on_update="false" label="CIO3E" value="CIO3E"/>
+                <element dependent_value="CIO-3" inactive_on_update="false" label="CIO3F" value="CIO3F"/>
+                <element dependent_value="CIO-3" inactive_on_update="false" label="CIO3HQ" value="CIO3HQ"/>
+                <element dependent_value="CIO-4" inactive_on_update="false" label="CIO4A" value="CIO4A"/>
+                <element dependent_value="CIO-4" inactive_on_update="false" label="CIO4B" value="CIO4B"/>
+                <element dependent_value="CIO-4" inactive_on_update="false" label="CIO4C" value="CIO4C"/>
+                <element dependent_value="CIO-4" inactive_on_update="false" label="CIO4D" value="CIO4D"/>
+                <element dependent_value="CIO-4" inactive_on_update="false" label="CIO4ESL" value="CIO4ESL"/>
+                <element dependent_value="CIO-4" inactive_on_update="false" label="CIO4HQ" value="CIO4HQ"/>
+                <element dependent_value="CIO-5" inactive_on_update="false" label="CIO5A" value="CIO5A"/>
+                <element dependent_value="CIO-5" inactive_on_update="false" label="CIO5B" value="CIO5B"/>
+                <element dependent_value="CIO-5" inactive_on_update="false" label="CIO5HQ" value="CIO5HQ"/>
+                <element dependent_value="FAC-1" inactive_on_update="false" label="FAC1B" value="FAC1B"/>
+                <element dependent_value="FAC-1" inactive_on_update="false" label="FAC1C" value="FAC1C"/>
+                <element dependent_value="FAC-1" inactive_on_update="false" label="FAC1D" value="FAC1D"/>
+                <element dependent_value="FAC-2" inactive_on_update="false" label="FAC2A" value="FAC2A"/>
+                <element dependent_value="FAC-2" inactive_on_update="false" label="FAC2B" value="FAC2B"/>
+                <element dependent_value="FAC-2" inactive_on_update="false" label="FAC2C" value="FAC2C"/>
+                <element dependent_value="FAC-2" inactive_on_update="false" label="FAC2D" value="FAC2D"/>
+                <element dependent_value="FAC-3" inactive_on_update="false" label="FAC3A" value="FAC3A"/>
+                <element dependent_value="FAC-3" inactive_on_update="false" label="FAC3B" value="FAC3B"/>
+                <element dependent_value="FAC-3" inactive_on_update="false" label="FAC3C" value="FAC3C"/>
+                <element dependent_value="OTO" inactive_on_update="false" label="OTO1A" value="OTO1A"/>
+                <element dependent_value="OTO" inactive_on_update="false" label="OTO1B" value="OTO1B"/>
+                <element dependent_value="OTO" inactive_on_update="false" label="OTO1C" value="OTO1C"/>
+            </choice>
         </element>
         <element choice="1" label="CIO Priority" max_length="40" name="cio_priority" type="choice">
             <choice>
+                <element inactive_on_update="false" label="Business of IT" value="Business of IT"/>
                 <element inactive_on_update="false" label="IC ITE Adoption Strategy for DIA" value="IC ITE Adoption Strategy for DIA"/>
                 <element inactive_on_update="false" label="IT Infrastructure Optimization" value="IT Infrastructure Optimization"/>
+                <element inactive_on_update="false" label="IT Innovation and Digital Enterprise" value="IT Innovation and Digital Enterprise"/>
+                <element inactive_on_update="false" label="N/A - Not a CIO Project" value="N/A - Not a CIO Project"/>
+                <element inactive_on_update="false" label="One Team (Internal)" value="One Team (Internal)"/>
+                <element inactive_on_update="false" label="Stakeholder Communications" value="Stakeholder Communications"/>
+                <element inactive_on_update="false" label="Workforce Development" value="Workforce Development"/>
             </choice>
         </element>
         <element choice="1" label="Division" max_length="40" name="division" type="choice">
-            <choice/>
+            <choice>
+                <element inactive_on_update="false" label="ADI" value="ADI"/>
+                <element inactive_on_update="false" label="AEO" value="AEO"/>
+                <element inactive_on_update="false" label="AFRICOM J2" value="AFRICOM J2"/>
+                <element inactive_on_update="false" label="AMRC" value="AMRC"/>
+                <element inactive_on_update="false" label="ATI" value="ATI"/>
+                <element inactive_on_update="false" label="CENTCOM J2" value="CENTCOM J2"/>
+                <element inactive_on_update="false" label="CFO" value="CFO"/>
+                <element inactive_on_update="false" label="CIO" value="CIO"/>
+                <element inactive_on_update="false" label="CIO-1" value="CIO-1"/>
+                <element inactive_on_update="false" label="CIO-2" value="CIO-2"/>
+                <element inactive_on_update="false" label="CIO-3" value="CIO-3"/>
+                <element inactive_on_update="false" label="CIO-4" value="CIO-4"/>
+                <element inactive_on_update="false" label="CIO-5" value="CIO-5"/>
+                <element inactive_on_update="false" label="CMT" value="CMT"/>
+                <element inactive_on_update="false" label="CS" value="CS"/>
+                <element inactive_on_update="false" label="CYBERCOM J2" value="CYBERCOM J2"/>
+                <element inactive_on_update="false" label="DAS" value="DAS"/>
+                <element inactive_on_update="false" label="DCO" value="DCO"/>
+                <element inactive_on_update="false" label="DCP" value="DCP"/>
+                <element inactive_on_update="false" label="DCS" value="DCS"/>
+                <element inactive_on_update="false" label="DCTC" value="DCTC"/>
+                <element inactive_on_update="false" label="DDG" value="DDG"/>
+                <element inactive_on_update="false" label="DI" value="DI"/>
+                <element inactive_on_update="false" label="DO" value="DO"/>
+                <element inactive_on_update="false" label="DRI" value="DRI"/>
+                <element inactive_on_update="false" label="EDO" value="EDO"/>
+                <element inactive_on_update="false" label="EERC" value="EERC"/>
+                <element inactive_on_update="false" label="EO" value="EO"/>
+                <element inactive_on_update="false" label="ES" value="ES"/>
+                <element inactive_on_update="false" label="ESO" value="ESO"/>
+                <element inactive_on_update="false" label="EUCOM J2" value="EUCOM J2"/>
+                <element inactive_on_update="false" label="FAC" value="FAC"/>
+                <element inactive_on_update="false" label="FAC-1" value="FAC-1"/>
+                <element inactive_on_update="false" label="FAC-2" value="FAC-2"/>
+                <element inactive_on_update="false" label="FAC-3" value="FAC-3"/>
+                <element inactive_on_update="false" label="FMP" value="FMP"/>
+                <element inactive_on_update="false" label="HQ" value="HQ"/>
+                <element inactive_on_update="false" label="Integrated Intelligence Centers" value="Integrated Intelligence Centers"/>
+                <element inactive_on_update="false" label="JFCC-ISR" value="JFCC-ISR"/>
+                <element inactive_on_update="false" label="Joint Military Operations" value="Joint Military Operations"/>
+                <element inactive_on_update="false" label="Joint Staff J2" value="Joint Staff J2"/>
+                <element inactive_on_update="false" label="LOG" value="LOG"/>
+                <element inactive_on_update="false" label="MARC" value="MARC"/>
+                <element inactive_on_update="false" label="MNEC" value="MNEC"/>
+                <element inactive_on_update="false" label="MS" value="MS"/>
+                <element inactive_on_update="false" label="MSIC" value="MSIC"/>
+                <element inactive_on_update="false" label="NCMI" value="NCMI"/>
+                <element inactive_on_update="false" label="NMO" value="NMO"/>
+                <element inactive_on_update="false" label="NORTHCOM J2" value="NORTHCOM J2"/>
+                <element inactive_on_update="false" label="OCI" value="OCI"/>
+                <element inactive_on_update="false" label="OCI-1A" value="OCI-1A"/>
+                <element inactive_on_update="false" label="OHR" value="OHR"/>
+                <element inactive_on_update="false" label="OTO" value="OTO"/>
+                <element inactive_on_update="false" label="PACOM J2" value="PACOM J2"/>
+                <element inactive_on_update="false" label="PMO" value="PMO"/>
+                <element inactive_on_update="false" label="SCS" value="SCS"/>
+                <element inactive_on_update="false" label="SCS1" value="SCS1"/>
+                <element inactive_on_update="false" label="SCS3" value="SCS3"/>
+                <element inactive_on_update="false" label="SEC" value="SEC"/>
+                <element inactive_on_update="false" label="SOCOM J2" value="SOCOM J2"/>
+                <element inactive_on_update="false" label="SOUTHCON J2" value="SOUTHCON J2"/>
+                <element inactive_on_update="false" label="ST" value="ST"/>
+                <element inactive_on_update="false" label="STRATCOM J2" value="STRATCOM J2"/>
+                <element inactive_on_update="false" label="TED" value="TED"/>
+                <element inactive_on_update="false" label="TLA" value="TLA"/>
+                <element inactive_on_update="false" label="TRANSCOM J2" value="TRANSCOM J2"/>
+                <element inactive_on_update="false" label="UFAC" value="UFAC"/>
+                <element inactive_on_update="false" label="USFK J2" value="USFK J2"/>
+            </choice>
         </element>
         <element choice="1" label="IUS Activity Code" max_length="40" name="ius_activity_code" type="choice">
             <choice>
@@ -23,8 +140,43 @@
         <element attributes="ignore_filter_on_new=true" default="javascript:global.getNextObjNumberPadded();" display="true" label="Number" max_length="40" name="number" type="string"/>
         <element label="Project" max_length="32" name="project" reference="pm_project" type="reference"/>
         <element label="Reference Link" max_length="1024" name="reference_link" type="url"/>
-        <element choice="1" label="Section" max_length="40" name="section" type="choice">
-            <choice/>
+        <element choice="1" dependent="branch" dependent_on_field="branch" label="Section" max_length="40" name="section" type="choice" use_dependent_field="true">
+            <choice>
+                <element dependent_value="CIO1A" inactive_on_update="false" label="CIO1A1" value="CIO1A1"/>
+                <element dependent_value="CIO1A" inactive_on_update="false" label="CIO1A2" value="CIO1A2"/>
+                <element dependent_value="CIO1A" inactive_on_update="false" label="CIO1A3" value="CIO1A3"/>
+                <element dependent_value="CIO1B" inactive_on_update="false" label="CIO1B1" value="CIO1B1"/>
+                <element dependent_value="CIO1B" inactive_on_update="false" label="CIO1B2" value="CIO1B2"/>
+                <element dependent_value="CIO1B" inactive_on_update="false" label="CIO1B3" value="CIO1B3"/>
+                <element dependent_value="CIO1C" inactive_on_update="false" label="CIO1C1" value="CIO1C1"/>
+                <element dependent_value="CIO1C" inactive_on_update="false" label="CIO1C2" value="CIO1C2"/>
+                <element dependent_value="CIO2A" inactive_on_update="false" label="CIO2A1" value="CIO2A1"/>
+                <element dependent_value="CIO2A" inactive_on_update="false" label="CIO2A2" value="CIO2A2"/>
+                <element dependent_value="CIO2A" inactive_on_update="false" label="CIO2A3" value="CIO2A3"/>
+                <element dependent_value="CIO2A" inactive_on_update="false" label="CIO2A4" value="CIO2A4"/>
+                <element dependent_value="CIO2B" inactive_on_update="false" label="CIO2B1" value="CIO2B1"/>
+                <element dependent_value="CIO2B" inactive_on_update="false" label="CIO2B2" value="CIO2B2"/>
+                <element dependent_value="CIO2B" inactive_on_update="false" label="CIO2B3" value="CIO2B3"/>
+                <element dependent_value="CIO2B" inactive_on_update="false" label="CIO2B4" value="CIO2B4"/>
+                <element dependent_value="CIO3A" inactive_on_update="false" label="CIO3A1" value="CIO3A1"/>
+                <element dependent_value="CIO3A" inactive_on_update="false" label="CIO3A2" value="CIO3A2"/>
+                <element dependent_value="CIO3A" inactive_on_update="false" label="CIO3A3" value="CIO3A3"/>
+                <element dependent_value="CIO3B" inactive_on_update="false" label="CIO3B1" value="CIO3B1"/>
+                <element dependent_value="CIO3B" inactive_on_update="false" label="CIO3B2" value="CIO3B2"/>
+                <element dependent_value="CIO3B" inactive_on_update="false" label="CIO3B3" value="CIO3B3"/>
+                <element dependent_value="CIO3B" inactive_on_update="false" label="CIO3B4" value="CIO3B4"/>
+                <element dependent_value="CIO3C" inactive_on_update="false" label="CIO3C1" value="CIO3C1"/>
+                <element dependent_value="CIO3C" inactive_on_update="false" label="CIO3C2" value="CIO3C2"/>
+                <element dependent_value="CIO3C" inactive_on_update="false" label="CIO3C3" value="CIO3C3"/>
+                <element dependent_value="CIO3D" inactive_on_update="false" label="CIO3D1" value="CIO3D1"/>
+                <element dependent_value="CIO3D" inactive_on_update="false" label="CIO3D2" value="CIO3D2"/>
+                <element dependent_value="CIO3D" inactive_on_update="false" label="CIO3D3" value="CIO3D3"/>
+                <element dependent_value="CIO3E" inactive_on_update="false" label="CIO3E1" value="CIO3E1"/>
+                <element dependent_value="CIO3E" inactive_on_update="false" label="CIO3E2" value="CIO3E2"/>
+                <element dependent_value="CIO3F" inactive_on_update="false" label="CIO3F1" value="CIO3F1"/>
+                <element dependent_value="CIO3F" inactive_on_update="false" label="CIO3F2" value="CIO3F2"/>
+                <element dependent_value="CIO3F" inactive_on_update="false" label="CIO3F3" value="CIO3F3"/>
+            </choice>
         </element>
         <index name="index">
             <element name="project"/>
