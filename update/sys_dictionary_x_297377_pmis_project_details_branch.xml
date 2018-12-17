@@ -11,7 +11,7 @@
 	return '';  // return the calculated value
 
 })(current);]]></calculation>
-        <choice>1</choice>
+        <choice/>
         <choice_field/>
         <choice_table/>
         <column_label>Branch</column_label>
@@ -20,8 +20,8 @@
         <default_value/>
         <defaultsort/>
         <delete_roles/>
-        <dependent>division</dependent>
-        <dependent_on_field>division</dependent_on_field>
+        <dependent/>
+        <dependent_on_field/>
         <display>false</display>
         <dynamic_creation>false</dynamic_creation>
         <dynamic_creation_script/>
@@ -32,19 +32,19 @@
         <foreign_database/>
         <function_definition/>
         <function_field>false</function_field>
-        <internal_type display_value="Choice">choice</internal_type>
+        <internal_type display_value="Reference">reference</internal_type>
         <mandatory>false</mandatory>
-        <max_length>40</max_length>
+        <max_length>32</max_length>
         <name>x_297377_pmis_project_details</name>
         <next_element/>
         <primary>false</primary>
         <read_only>false</read_only>
         <read_roles/>
-        <reference/>
+        <reference display_value="" name="x_297377_pmis_project_details_choices">x_297377_pmis_project_details_choices</reference>
         <reference_cascade_rule/>
         <reference_floats>false</reference_floats>
         <reference_key/>
-        <reference_qual/>
+        <reference_qual>javascript:'parent='+current.division.getDisplayValue()</reference_qual>
         <reference_qual_condition/>
         <reference_type/>
         <sizeclass/>
@@ -52,8 +52,8 @@
         <staged>false</staged>
         <sys_class_name>sys_dictionary</sys_class_name>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2018-12-05 15:40:16</sys_created_on>
-        <sys_id>ec415228dbd22300306dab7dca96198c</sys_id>
+        <sys_created_on>2018-12-17 13:34:27</sys_created_on>
+        <sys_id>7bff99f3db522300306dab7dca9619e5</sys_id>
         <sys_mod_count>1</sys_mod_count>
         <sys_name>Branch</sys_name>
         <sys_package display_value="PMIS" source="x_297377_pmis">c3c76e63db8a230055adf00fbf96191d</sys_package>
@@ -61,13 +61,13 @@
         <sys_scope display_value="PMIS">c3c76e63db8a230055adf00fbf96191d</sys_scope>
         <sys_update_name>sys_dictionary_x_297377_pmis_project_details_branch</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2018-12-12 17:53:57</sys_updated_on>
+        <sys_updated_on>2018-12-17 13:34:40</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
-        <use_dependent_field>true</use_dependent_field>
+        <use_dependent_field>false</use_dependent_field>
         <use_dynamic_default>false</use_dynamic_default>
-        <use_reference_qualifier>simple</use_reference_qualifier>
+        <use_reference_qualifier>advanced</use_reference_qualifier>
         <virtual>false</virtual>
         <widget/>
         <write_roles/>

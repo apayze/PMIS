@@ -10,10 +10,10 @@
         <delete_access>false</delete_access>
         <extension_model/>
         <is_extendable>false</is_extendable>
-        <label>Project Details</label>
+        <label>Project Details Choices</label>
         <live_feed_enabled>false</live_feed_enabled>
-        <name>x_297377_pmis_project_details</name>
-        <number_ref display_value="PRJD">00eaf267db822300306dab7dca9619db</number_ref>
+        <name>x_297377_pmis_project_details_choices</name>
+        <number_ref/>
         <provider_class/>
         <read_access>true</read_access>
         <super_class/>
@@ -21,18 +21,18 @@
         <sys_class_name>sys_db_object</sys_class_name>
         <sys_class_path/>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2018-12-04 15:16:55</sys_created_on>
-        <sys_id>094a7e27db822300306dab7dca96193e</sys_id>
-        <sys_mod_count>2</sys_mod_count>
-        <sys_name>Project Details</sys_name>
+        <sys_created_on>2018-12-17 13:14:57</sys_created_on>
+        <sys_id>af6b55ffdb122300306dab7dca9619b1</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Project Details Choices</sys_name>
         <sys_package display_value="PMIS" source="x_297377_pmis">c3c76e63db8a230055adf00fbf96191d</sys_package>
         <sys_policy/>
         <sys_scope display_value="PMIS">c3c76e63db8a230055adf00fbf96191d</sys_scope>
-        <sys_update_name>sys_db_object_094a7e27db822300306dab7dca96193e</sys_update_name>
+        <sys_update_name>sys_db_object_af6b55ffdb122300306dab7dca9619b1</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2018-12-17 13:52:56</sys_updated_on>
+        <sys_updated_on>2018-12-17 13:14:57</sys_updated_on>
         <update_access>false</update_access>
         <user_role display_value="x_297377_pmis.Administrators" name="x_297377_pmis.Administrators">5efa91ffdb122300306dab7dca96194e</user_role>
-        <ws_access>false</ws_access>
+        <ws_access>true</ws_access>
     </sys_db_object>
 </record_update>
